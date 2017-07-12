@@ -44,13 +44,18 @@ P(four door) is **Evidence**.
 
 Now let’s see why they are called like that.
 
-Posterior: After we observed it’s a Sci-fi type, we know something about the object. Because it’s post(or after) the observation, we call it posterior: P(movie|Sci-fi).
+Posterior: After we observed it’s a Sci-fi type, we know something about the object. Because it’s post(or after) the observation, 
+we call it posterior: P(movie|Sci-fi).
 
-Likelihood: The dictionary meaning of this word is chance or probability that one thing will happen. Here it means when it’s a movie, what the chance will be if it is also a Sci-fi type. This term is very important in Machine Learning.
+Likelihood: The dictionary meaning of this word is chance or probability that one thing will happen. Here it means when it’s a movie,
+what the chance will be if it is also a Sci-fi type. This term is very important in Machine Learning.
 
-Prior: Before we observe it’s a Sci-fi type, the object is completely unknown to us. Our goal is to find out the possibility that it’s a movie, we actually have the data prior(or before) our observation, which is the possibility that it’s a movie if it’s a completely unknown object: P(movie).
+Prior: Before we observe it’s a Sci-fi type, the object is completely unknown to us. Our goal is to find out the possibility that
+it’s a movie, we actually have the data prior(or before) our observation, which is the possibility that it’s a movie if it’s
+a completely unknown object: P(movie).
 
-Evidence: Because we’ve already known it’s a Sci-fi type, what has happened is happened. We witness it’s appearance, so to us, it’s an evidence, and the chance we get this evidence is P(Sci-fi).
+Evidence: Because we’ve already known it’s a Sci-fi type, what has happened is happened. We witness it’s appearance, so to us, it’s
+an evidence, and the chance we get this evidence is P(Sci-fi).
 
 So why those probabilities are named like that, the observation time is a very important reason.
 
